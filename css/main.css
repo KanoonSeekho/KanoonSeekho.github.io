@@ -44,7 +44,7 @@
 .nav-link:hover {
   -webkit-filter: grayscale(0%) opacity(1);
           filter: grayscale(0%) opacity(1);
-  background-color: #ff3c83;
+  background-color: #805c69;
   color: #ececec;
 }
 
@@ -112,6 +112,8 @@
   .nav-main {
     width: 5.5rem;
     height: 100vh;
+    -webkit-transition: 250ms width ease-in;
+    transition: 250ms width ease-in;
   }
   .nav-main:hover {
     width: 18rem;
@@ -138,7 +140,7 @@
 }
 
 .fa-secondary {
-  color: #ff3c83;
+  color: #805c69;
 }
 
 @media only screen and (min-width: 600px) {
@@ -151,6 +153,187 @@
     height: 100vh;
     margin-left: 5.5rem;
     text-align: center;
+  }
+  .heading-sec {
+    height: 15vh;
+    text-align: center;
+    background-color: #ececec;
+    color: #ff9f4a;
+  }
+  .heading-sec h2 {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    font-family: "Newsreader", serif;
+  }
+  .heading-sec img {
+    margin-right: 2rem;
+  }
+  .content-home {
+    background-image: url(../images/study.jpg);
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+  .content-home h1 {
+    font-size: 2.5rem;
+    font-family: "Newsreader", serif;
+    margin: 7rem auto 0rem;
+  }
+  .heading-sec-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .heading-sec-space {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .heading-sec-middle {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .content-sec {
+    font-size: 1.5rem;
+    font-family: "Newsreader", serif;
+    color: #ececec;
+    height: 85vh;
+    line-height: 2.2rem;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .content-sec .content-contact {
+    margin: 3rem 2rem;
+    width: 85%;
+  }
+  .content-sec .content-contact h2 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #805c69;
+  }
+  .content-sec .content-contact .form-css {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .content-sec .content-contact input {
+    background: none transparent;
+    border: 1px solid #110000;
+    border-radius: 2px;
+    color: #23232e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 0.7rem;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    margin: 1rem;
+  }
+  .content-sec .content-contact textarea {
+    background: none transparent;
+    border: 1px solid #110000;
+    border-radius: 2px;
+    color: #23232e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 0.7rem;
+    padding: 1rem;
+    letter-spacing: 0.2rem;
+    margin: 1rem;
+  }
+  .content-sec .content-contact button {
+    margin: 1.5rem auto;
+    background: #eeeeee;
+    color: #23232e;
+    border: 1px solid #556699;
+    border-radius: 11px;
+    padding: 20px 45px;
+    display: inline-block;
+    text-align: center;
+  }
+  .content-sec .content-contact button:hover {
+    background: #23232e;
+    color: #ececec;
+  }
+  .social-media {
+    width: 15%;
+    height: 85vh;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .social-media a {
+    text-decoration: none;
+  }
+  .social-media svg {
+    color: #23232e;
+  }
+  .content-event {
+    background-image: url(../images/think.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: right;
+  }
+  .content-event h1 {
+    font-size: 4rem;
+    top: 40%;
+  }
+  .content-event h3 {
+    top: 45%;
+  }
+  .content-event button {
+    top: 55%;
+    background: #eeeeee;
+    color: #805c69;
+    border: 1px solid #556699;
+    border-radius: 11px;
+    padding: 20px 45px;
+    display: inline-block;
+    text-align: center;
+  }
+  .content-event h1,
+  .content-event h3,
+  .content-event button {
+    font-family: "Newsreader", serif;
+    color: #805c69;
+    position: relative;
+    right: 10%;
+  }
+  .content-event button:hover {
+    background: #23232e;
+    color: #ececec;
   }
   .content-mobile {
     display: none;
@@ -181,5 +364,9 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: #6649b8;
+}
+
+textarea {
+  resize: none;
 }
 /*# sourceMappingURL=main.css.map */

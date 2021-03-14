@@ -98,6 +98,7 @@
   .nav-main {
     width: 5.5rem;
     height: 100vh;
+    transition: 250ms width ease-in;
   }
 
   .nav-main:hover {
