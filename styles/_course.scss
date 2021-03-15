@@ -1,0 +1,122 @@
+.content-mission{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 85vh;
+
+}
+
+.course-main{
+   height: 100vh;
+   width: 100%;
+   background-color: black;
+   
+
+
+   .course-img-1{
+      background-image: url(https://picsum.photos/1080/1080);
+      
+   }
+
+   .course-img-2{
+      background-image: url(../images/think.jpg);
+      
+   }
+
+   .course-img-3{
+      background-image: url(../images/think.jpg);
+      
+   }
+
+   .background-image{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+   }
+
+   button {
+      margin: 1.5rem auto;
+      background: #eeeeee;
+      color: $color-back;
+      border: 1px solid #556699;
+      border-radius: 11px;
+      padding: 20px 45px;
+
+      display: inline-block;
+      text-align: center;
+    }
+
+    button:hover {
+      background: $color-back;
+      color: $color-text;
+    }
+
+    .course-box{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto;
+       flex-direction: column;
+    }
+
+    h1{
+      margin-left: 2rem;
+      font-size: $font-three;
+      font-family: $font-text;
+    }
+
+}
+
+
+
+.card{
+
+   height: 80%;
+   width: 320px;
+   background-image:linear-gradient( top, ) ;
+   border-radius: 1rem;
+   border: 2px $color-head solid;
+   margin: 0.5rem;
+   // background-image: linear-gradient(to right, rgb(255, 239, 186), rgb(255, 255, 255));
+   box-shadow: 10px 10px 5px 0px $color-back;
+
+   img{
+      height: 40%;
+      width: 100%;
+      background-size: cover;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+   }
+
+   h4{
+      font-size: $font-two-two;
+      
+      padding: 0.5rem;
+      margin: 0.2rem auto;
+      color: $color-head;
+   }
+
+   p{
+      font-size: 1.3rem ;
+   }
+   
+
+   button {
+      margin: 1.5rem auto;
+      background: #eeeeee;
+      color: $color-back;
+      border: 1px solid #556699;
+      border-radius: 11px;
+      padding: 20px 45px;
+
+      display: inline-block;
+      text-align: center;
+    }
+
+    button:hover {
+      background: $color-back;
+      color: $color-text;
+    }
+   
+}
+

@@ -346,6 +346,129 @@
   }
 }
 
+.content-mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 85vh;
+}
+
+.course-main {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.course-main .course-img-1 {
+  background-image: url(https://picsum.photos/1080/1080);
+}
+
+.course-main .course-img-2 {
+  background-image: url(../images/think.jpg);
+}
+
+.course-main .course-img-3 {
+  background-image: url(../images/think.jpg);
+}
+
+.course-main .background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.course-main button {
+  margin: 1.5rem auto;
+  background: #eeeeee;
+  color: #23232e;
+  border: 1px solid #556699;
+  border-radius: 11px;
+  padding: 20px 45px;
+  display: inline-block;
+  text-align: center;
+}
+
+.course-main button:hover {
+  background: #23232e;
+  color: #ececec;
+}
+
+.course-main .course-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.course-main h1 {
+  margin-left: 2rem;
+  font-size: 2.5rem;
+  font-family: "Newsreader", serif;
+}
+
+.card {
+  height: 80%;
+  width: 320px;
+  background-image: -webkit-gradient(linear, left top, left bottom, );
+  background-image: linear-gradient(top);
+  border-radius: 1rem;
+  border: 2px #805c69 solid;
+  margin: 0.5rem;
+  -webkit-box-shadow: 10px 10px 5px 0px #23232e;
+          box-shadow: 10px 10px 5px 0px #23232e;
+}
+
+.card img {
+  height: 40%;
+  width: 100%;
+  background-size: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card h4 {
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0.2rem auto;
+  color: #805c69;
+}
+
+.card p {
+  font-size: 1.3rem;
+}
+
+.card button {
+  margin: 1.5rem auto;
+  background: #eeeeee;
+  color: #23232e;
+  border: 1px solid #556699;
+  border-radius: 11px;
+  padding: 20px 45px;
+  display: inline-block;
+  text-align: center;
+}
+
+.card button:hover {
+  background: #23232e;
+  color: #ececec;
+}
+
 * {
   margin: 0;
   padding: 0;
