@@ -423,8 +423,8 @@
 }
 
 .card {
-  height: 80%;
-  width: 320px;
+  height: 60%;
+  width: 280px;
   background-image: -webkit-gradient(linear, left top, left bottom, );
   background-image: linear-gradient(top);
   border-radius: 1rem;
