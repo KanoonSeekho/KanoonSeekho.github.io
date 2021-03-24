@@ -1,0 +1,179 @@
+.nav-main {
+  height: 16vh;
+  background-color: #071a52;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-main .nav-logo {
+  margin: 0rem auto;
+  background-image: url("../images/logo.png");
+  background-position: center;
+  background-size: cover;
+  height: 110px;
+  width: 101px;
+}
+
+.nav-main .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin-right: 2.5rem;
+}
+
+.nav-main .nav-link {
+  text-decoration: none;
+  color: #f0f0f0;
+  margin: 0.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav-main .nav-link:hover {
+  color: #facf4a;
+}
+
+.content-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.content-hero h3 {
+  margin: 0 1.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.content-hero h4 {
+  margin: 0 1rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.background-hero {
+  background-image: url("../images/hero.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 680px) {
+  section {
+    height: 100vh;
+    width: 100%;
+    overflow: none;
+    background-color: #f0f0f0;
+  }
+  .content-hero {
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .nav-main .nav-list {
+    display: none;
+  }
+  .content-hero {
+    height: 84vh;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  overflow: hidden;
+}
+
+button {
+  background: #facf4a;
+  border: 1px solid #556699;
+  border-radius: 11px;
+  padding: 15px 35px;
+  color: #e3f2fd;
+  display: inline-block;
+  font: normal bold 26px/1 "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+@media only screen and (min-width: 680px) {
+  h1 {
+    font-size: 5rem;
+    font-family: "Raleway", sans-serif;
+  }
+  h2 {
+    font-size: 4rem;
+    font-family: "Raleway", sans-serif;
+  }
+  h3 {
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  h4 {
+    font-size: 2.3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  body::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  body::-webkit-scrollbar-track {
+    background: #071a52;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #facf4a;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .container-mobile {
+    background-color: #f0f0f0;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
