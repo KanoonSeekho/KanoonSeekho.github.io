@@ -24,7 +24,7 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin-right: 2.5rem;
+    margin-right: auto;
   }
 
   .nav-link {
@@ -55,7 +55,7 @@
   h3,
   h4 {
     font-family: $font-heading;
-    color: $color-dark;
+    text-shadow: 1px 1px $color-gold;
     font-weight: bold;
     margin: 1rem 0;
   }
@@ -71,12 +71,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 65vw;
+    width: 55vw;
   }
 }
 
 .background-hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/law.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,5 +135,5 @@
   color: $color-white;
   padding: 10px 35px;
   transition: 130ms ease-out;
-  border: 1px solid $color-gold;
+  border: 2px solid $color-gold;
 }
