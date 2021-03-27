@@ -1,6 +1,6 @@
 @import "var";
 @import "hero";
-
+@import "event";
 //----------------------------------------------------------------------------------------------
 //defult css for pages is here
 
@@ -11,30 +11,9 @@
   font-size: 16px;
 }
 
-body {
-  // overflow: hidden;
-}
-
-button {
-  width: 15rem;
-  background: $color-light;
-  border: 1px solid $color-dark;
-  border-radius: 11px;
-  padding: 10px 17px;
-  color: $color-dark;
-  display: inline-block;
-  font: normal bold 1.5rem $font-text;
-  text-align: center;
-  margin: 1rem 0;
-}
-
-button:hover {
-  background: $color-dark;
-  color: $color-light;
-  padding: 10px 35px;
-  transition: 130ms ease-out;
-  border: 1px solid $color-gold;
-}
+// body {
+// overflow: hidden;
+// }
 
 //-----------------------------------------------------------------------------------------------
 //additional css for defult styling of section in mobile or desktop mode
@@ -46,9 +25,17 @@ button:hover {
     background-color: $color-white;
   }
 
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: $font-heading;
+    color: $color-dark;
+    font-weight: bold;
+  }
+
   h1 {
     font-size: $five;
-    font-family: $font-heading;
   }
 
   h2 {

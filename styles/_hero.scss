@@ -114,3 +114,26 @@
     text-align: center;
   }
 }
+
+//eXtrA--------------------------------------------------------------------------------------------
+
+.button {
+  width: 15rem;
+  background: $color-white;
+  border: 1px solid $color-dark;
+  border-radius: 11px;
+  padding: 10px 17px;
+  color: $color-dark;
+  display: inline-block;
+  font: normal bold 1.5rem $font-text;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.button:hover {
+  background: $color-dark;
+  color: $color-white;
+  padding: 10px 35px;
+  transition: 130ms ease-out;
+  border: 1px solid $color-gold;
+}
