@@ -82,6 +82,12 @@
   }
 }
 
+.card:hover {
+  box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 500ms, ease-out;
+  border: 3px solid $color-gold;
+}
+
 @media only screen and(min-width : 720px) {
   .container-card {
     height: 85vh;

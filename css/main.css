@@ -284,6 +284,16 @@
   font-size: 1.2rem;
 }
 
+.card:hover {
+  -webkit-box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 19px rgba(0, 0, 0, 0.3);
+  -webkit-transition: ease-out, -webkit-box-shadow 500ms;
+  transition: ease-out, -webkit-box-shadow 500ms;
+  transition: box-shadow 500ms, ease-out;
+  transition: box-shadow 500ms, ease-out, -webkit-box-shadow 500ms;
+  border: 3px solid #facf4a;
+}
+
 @media only screen and (min-width: 720px) {
   .container-card {
     height: 85vh;
