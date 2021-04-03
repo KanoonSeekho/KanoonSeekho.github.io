@@ -319,6 +319,134 @@
   }
 }
 
+.div-sec-foot {
+  height: 50vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1a2639;
+  color: #fff;
+}
+
+.logo-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.logo-foot h3 {
+  color: #facf4a;
+}
+
+.external-links h5 {
+  color: #facf4a;
+}
+
+.external-links .links-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.external-links .links-element a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+.links-element-contact .svg-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links-element-contact .svg-contact p {
+  margin: 0.5rem;
+}
+
+.social-media a {
+  margin-right: 0.7rem;
+}
+
+.social-media h5 {
+  color: #fff;
+  margin: 1rem auto;
+}
+
+@media only screen and (min-width: 720px) {
+  .logo-foot,
+  .external-links,
+  .social-media {
+    height: 70%;
+    margin: 0.5rem auto;
+  }
+  .logo-foot h5,
+  .external-links h5,
+  .social-media h5 {
+    margin-top: 1.2rem;
+  }
+  .logo-foot {
+    width: 25%;
+  }
+  .external-links {
+    width: 15%;
+  }
+  .social-media {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .div-sec-foot {
+    height: 100vh;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-foot,
+  .external-links,
+  .social-media {
+    width: 60%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -336,7 +464,8 @@
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  h5 {
     font-family: "Raleway", sans-serif;
     color: #1a2639;
     font-weight: bold;

@@ -1,6 +1,7 @@
 @import "var";
 @import "hero";
 @import "event";
+@import "foot";
 
 //----------------------------------------------------------------------------------------------
 //defult css for pages is here
@@ -29,7 +30,8 @@
   h1,
   h2,
   h3,
-  h4 {
+  h4,
+  h5 {
     font-family: $font-heading;
     color: $color-dark;
     font-weight: bold;
